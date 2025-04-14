@@ -147,42 +147,46 @@
             // 
             // plus
             // 
+            plus.BackColor = SystemColors.ControlLight;
             plus.Location = new Point(180, 66);
             plus.Name = "plus";
             plus.Size = new Size(50, 29);
             plus.TabIndex = 12;
             plus.Text = "+";
-            plus.UseVisualStyleBackColor = true;
+            plus.UseVisualStyleBackColor = false;
             plus.Click += plus_Click;
             // 
             // minus
             // 
+            minus.BackColor = SystemColors.ControlLight;
             minus.Location = new Point(180, 101);
             minus.Name = "minus";
             minus.Size = new Size(50, 29);
             minus.TabIndex = 13;
             minus.Text = "-";
-            minus.UseVisualStyleBackColor = true;
+            minus.UseVisualStyleBackColor = false;
             minus.Click += minus_Click;
             // 
             // divide
             // 
+            divide.BackColor = SystemColors.ControlLight;
             divide.Location = new Point(180, 136);
             divide.Name = "divide";
             divide.Size = new Size(50, 29);
             divide.TabIndex = 14;
             divide.Text = "/";
-            divide.UseVisualStyleBackColor = true;
+            divide.UseVisualStyleBackColor = false;
             divide.Click += divide_Click;
             // 
             // multiply
             // 
+            multiply.BackColor = SystemColors.ControlLight;
             multiply.Location = new Point(180, 171);
             multiply.Name = "multiply";
             multiply.Size = new Size(50, 29);
             multiply.TabIndex = 15;
             multiply.Text = "*";
-            multiply.UseVisualStyleBackColor = true;
+            multiply.UseVisualStyleBackColor = false;
             multiply.Click += multiply_Click;
             // 
             // window

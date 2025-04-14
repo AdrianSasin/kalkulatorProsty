@@ -82,11 +82,7 @@ namespace kalkulatorProsty
 
         private void button10_Click(object sender, EventArgs e)
         {
-            // Przycisk "=" - oblicz wynik
-            PerformOperation();
-            operation = "";
-            window.Text = result.ToString();
-            value = ""; // Resetuj wartoœæ
+            AppendValue(button10.Text);
         }
 
         private void AppendValue(string text)
